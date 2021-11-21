@@ -1,38 +1,21 @@
 //por ejemplo si invocamos a la función con los parámetros 3 y a, 
 //el resultado debería ser(3,a)===>[a,a,a]
 
+function retornoarreglo(numero:number,valor:any):any {
+  let exponentearreglo:any[]=new Array(numero);
 
 
-function retorno(cantidad:number, valores:any) any {
-
-
-let retornoarreglo:any[]=new Array (1);
-
-
-
- 
-  for (let i = 0; i <retornoarreglo.length; i++) {
- 
-  
-  
-retornoarreglo[i]=(cantidad^(valores));
-
-  console.log(retornoarreglo);
-
-
-}
-
-   
+  for (let index = 0; index < exponentearreglo.length; index++) {
+    exponentearreglo[index]= valor
+    console.log(exponentearreglo)
     
   }
-  return retornoarreglo
- 
-
-   
+ return retornoarreglo
+}
 
 
-retorno(4,"a");
+retornoarreglo(3,"b");
 
-
+console.log(retornoarreglo);
 
 
