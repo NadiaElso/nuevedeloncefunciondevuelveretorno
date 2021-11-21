@@ -16,6 +16,6 @@ function retornoarreglo(numero:number,valor:any):any {
 
 retornoarreglo(3,"b");
 
-console.log(retornoarreglo);
+
 
 
